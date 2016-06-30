@@ -17,8 +17,20 @@ namespace VirtualPet
             Console.WriteLine("What type of virtual pet is " + name + "?");
             string type = Console.ReadLine();
 
-            Console.WriteLine("How old is" + name + "?");
-           // int age = Console.ReadLine();
+            Console.WriteLine("How old is " + name + "?");
+            // int age = Console.ReadLine();
+
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine();
+
+            Pet myPet = new Pet();
+
+            myPet.DisplayStatus();
+
+
+
+
             Console.ReadKey();
 
         }

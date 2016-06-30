@@ -78,25 +78,48 @@ namespace VirtualPet
             }
 
         }
-
         //methods
-       // public void DisplayStatus();
+        public void DisplayStatus()
+        {
+            Console.WriteLine("Your virtualpet's name is "+ name + ".");
+            Console.WriteLine("Your virtualpet's type is "+ type + ".");
+            Console.WriteLine("Your virtualpet's age is "+ age + ".");
+            Console.ReadLine();
 
 
-       // public void HungerLevel();
 
-       // public void HappinessLevel();
+        }
 
-       // public void Tick();
+
+        public void HungerLevel()
+        { }
+
+        public void HappinessLevel()
+        { }
+    
+
+         public void Tick()
+        { }
 
         //constructors
 
-       // public Pet();
+        public Pet()
+        { }
+
+        public Pet(string name, string type, int age, int happiness, int hunger)
+        {
+            Name = name;
+            Type = type;
+            Age = age;
+            Happiness = happiness;
+            Hunger = hunger;
+        }
+    }
 
 
-    }
-    }
-    
+}
+
+
 
 
 
