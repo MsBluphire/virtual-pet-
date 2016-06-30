@@ -14,7 +14,7 @@ namespace VirtualPet
         private int age;
         private int hunger;
         private int happiness;
-        //private bool sick;
+
 
         //properties
         public string Name
@@ -76,32 +76,34 @@ namespace VirtualPet
             {
                 happiness = value;
             }
-            //{
-            //public bool Sick
-            //{
-            //  get
-            // {
-            //     return sick;
-            // }
-            // set
-            // {
-            //     sick = value;
-            // }
+
         }
 
         //methods
-        public void DisplayStats();
-        {
-            Console.WriteLine("Your virtual pet's name is {0}", Name);
-            Console.WriteLine("Your virtual pet's age is {0}", Age);
-            Console.WriteLine("Your virtual pet's type is {0}", Type);
-        }
+       // public void DisplayStatus();
 
-    //constructors
-    public Pet(string name, string type, int age, int happiness, int hunger);
-    {
-   
 
-}
+       // public void HungerLevel();
+
+       // public void HappinessLevel();
+
+       // public void Tick();
+
+        //constructors
+
+       // public Pet();
+
+
     }
-}
+    }
+    
+
+
+
+
+
+
+
+
+
+
